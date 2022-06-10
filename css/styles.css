@@ -1,3 +1,58 @@
-body {
-    background-color: tomato;
+/* #212121 цвет текста */
+/* вторичный цвет #757575 */
+/* белый #ffffff */
+/* голубой #2196F3 */
+
+.body {
+    background-color: #E5E5E5;
+    color: #212121;
+}
+ul {list-style: none;
+}
+/* Header */
+.header {background-color: #ffffff;}
+.logo {color: #2196F3;}
+.header-list:hover, 
+.header-list:focus {color: #2196F3;}
+.header-list {color: #212121;
+text-decoration: none;}
+.header-contact {
+    text-decoration: none;
+    color: #212121
+}
+/* Hero */
+.hero-main {
+    background-color: #2F303A;
+}
+.hero-logo {
+    color: #FFFFFF;
+}
+.hero-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+
+
+/* Our team */
+.team {
+    background-color: #F5F4FA;
+}
+/* Sort */
+.sort-button {
+    background-color: #F5F4FA;
+    }
+    .sort-button:hover,
+    .sort-button:focus {
+        background-color: #2196F3;
+        color: #FFFFFF        ;
+        }
+/* Footer */
+.footer {
+    background-color: #2F303A;
+    color: #ffffff;
+}
+.footer-list {
+    text-decoration: none;
+    color: #ffffff;
 }
