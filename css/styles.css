@@ -24,9 +24,13 @@ ul {list-style: none;}
         line-height: 1,19;
         letter-spacing: 0.03em;
 }
+
 .header-list:hover, 
 .header-list:focus {color: #2196F3;}
 .header-list {color: #212121;
+text-decoration: none;}
+.current {
+    color: #2196F3;
 text-decoration: none;}
 .header-contact {
     text-decoration: none;
