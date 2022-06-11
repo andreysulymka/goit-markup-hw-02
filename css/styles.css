@@ -3,40 +3,93 @@
 /* белый #ffffff */
 /* голубой #2196F3 */
 
-.body {
+body {
     background-color: #E5E5E5;
     color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,14;
 }
-ul {list-style: none;
-}
+ul {list-style: none;}
 /* Header */
 .header {background-color: #ffffff;}
 .logo {color: #2196F3;}
+.all-logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1,19;
+        letter-spacing: 0.03em;
+}
 .header-list:hover, 
 .header-list:focus {color: #2196F3;}
 .header-list {color: #212121;
 text-decoration: none;}
 .header-contact {
     text-decoration: none;
-    color: #212121
-}
+    color: #757575
+    }
+
 /* Hero */
 .hero-main {
     background-color: #2F303A;
 }
 .hero-logo {
     color: #FFFFFF;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1,36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 .hero-button {
     background-color: #2196F3;
     color: #FFFFFF;
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1,88;
 }
+/* Preference */
+.preference-title {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.03em;
+}
+.preference-info {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1,71;    
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.work-logo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;}
 
 
 
-/* Our team */
+/* Team */
 .team {
     background-color: #F5F4FA;
+}
+.team-people {
+    font-size: 16px;
+    line-height: 1,19;
+}
+.team-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
 }
 /* Sort */
 .sort-button {
@@ -47,12 +100,52 @@ text-decoration: none;}
         background-color: #2196F3;
         color: #FFFFFF        ;
         }
-/* Footer */
+        /* Portfolio Sort */
+.sort-button {
+    background-color: #F5F4FA;
+    color: #212121;
+    }
+        .sort-button:hover,
+        .sort-button:focus {
+            background-color: #2196F3;
+            color: #ffffff;
+        }
+        /* Works */
+        .works-title {
+            font-weight: 700;
+                font-size: 18px;
+                line-height: 2;
+                letter-spacing: 0.06em;
+                }
+        .work-name {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1,88;
+            letter-spacing: 0.03em;
+            color: #757575;
+        }
+        /* Footer */
+
 .footer {
     background-color: #2F303A;
     color: #ffffff;
 }
+
 .footer-list {
     text-decoration: none;
-    color: #ffffff;
-}
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+   }
+   .footer-local {
+       color: #ffffff;
+    font-style: normal;
+       text-decoration: none
+        
+   }
+   .footer-contact {
+        color: rgba(255, 255, 255, 0.6);
+        font-style: normal;
+        text-decoration: none;
+   }
+  
